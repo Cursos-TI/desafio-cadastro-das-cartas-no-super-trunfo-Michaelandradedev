@@ -200,7 +200,7 @@ switch (opcao2)
 
         printf("Comparação das CARTAS\n");
 
-    printf("\nPOPULAÇÃO:");
+    printf("\nPOPULAÇÃO: ");
      if (populacao1 > populacao2)
     {
         printf("A CARTA 1 É A VENCEDORA!\n");
@@ -211,7 +211,7 @@ switch (opcao2)
         printf("EMPATE!!\n");
     }
 
-    printf("ÁREA:");
+    printf("ÁREA: ");
     if (area1 > area2)
     {
         printf("A CARTA 1 É A VENCEDORA!\n");
@@ -223,7 +223,7 @@ switch (opcao2)
 
 }
 
-    printf("PIB:");
+    printf("PIB: ");
     if (PIB1 > PIB2)
     {
         printf("A CARTA 1 É A VENCEDORA!\n");
@@ -234,7 +234,7 @@ switch (opcao2)
         printf("EMPATE!!\n");
 }
 
-    printf("PONTOS TURÍSTICOS:");
+    printf("PONTOS TURÍSTICOS: ");
     if (numerodepontosturisticos1 > numerodepontosturisticos2)
     {
         printf("A CARTA 1 É A VENCEDORA!\n");
@@ -245,7 +245,7 @@ switch (opcao2)
         printf("EMPATE!!\n");
 }
 
-    printf("DENSIDADE POPULACIONAL:");
+    printf("DENSIDADE POPULACIONAL: ");
     if (densidadepopulacional1 < densidadepopulacional2)
     {
         printf("A CARTA 1 É A VENCEDORA!\n");
@@ -256,7 +256,7 @@ switch (opcao2)
         printf("EMPATE!!\n");
 }
 
-printf("PIB PER CAPTA:");
+printf("PIB PER CAPTA: ");
     if (pibpercapita1 > pibpercapita2)
     {
         printf("A CARTA 1 É A VENCEDORA!\n");
@@ -267,7 +267,7 @@ printf("PIB PER CAPTA:");
         printf("EMPATE!!\n");
 }        
 
-printf("SUPER PODER:");
+printf("SUPER PODER: ");
     if (superpoder1 > superpoder2)
     {
         printf("A CARTA 1 É A VENCEDORA!\n");
